@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="16sp"
+        android:text="Roberto Teste"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:typeface="monospace"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="132dp"
+        tools:text="Roberto Teste" />
+</androidx.constraintlayout.widget.ConstraintLayout>
