@@ -15,8 +15,8 @@ class ContatoActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.textNumero).text = "Numero: " + MainActivity.contatos[MainActivity.indexContato].numero
         findViewById<TextView>(R.id.textEmail).text = "Email: " + MainActivity.contatos[MainActivity.indexContato].email
 
-        var deletarButton = findViewById<FloatingActionButton>(R.id.Delete)
-        var voltarButton = findViewById<FloatingActionButton>(R.id.Voltar)
+        val deletarButton = findViewById<FloatingActionButton>(R.id.Delete)
+        val voltarButton = findViewById<FloatingActionButton>(R.id.Voltar)
 
         deletarButton.setOnClickListener {
             MainActivity.contatos.removeAt(MainActivity.indexContato)
