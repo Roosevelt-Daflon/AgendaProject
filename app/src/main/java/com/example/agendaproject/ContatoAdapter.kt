@@ -10,7 +10,7 @@ import android.widget.AdapterView
 
 class ContatoAdapter (private val context: Context, private val arrayList: java.util.ArrayList<Contato>) : BaseAdapter()
 {
-    private  lateinit var name : TextView
+    private  lateinit val name : TextView
 
     override fun getCount(): Int {
         return arrayList.size
@@ -25,7 +25,7 @@ class ContatoAdapter (private val context: Context, private val arrayList: java.
     }
 
     override fun getView(p0: Int, p1: View?, p2: ViewGroup?): View {
-        var convertView = p1
+        val convertView = p1
         convertView = LayoutInflater.from(context).inflate(R.layout.buttom_template, p2, false)
         name = convertView.findViewById(R.id.textView)
         name.text = arrayList[p0].nome
