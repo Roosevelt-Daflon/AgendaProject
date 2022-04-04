@@ -11,10 +11,10 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         val contatos : ArrayList<Contato> = ArrayList()
-        var indexContato : Int = 0
+        val indexContato : Int = 0
     }
 
-    var adapterC : ContatoAdapter? = null
+    val adapterC : ContatoAdapter? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
