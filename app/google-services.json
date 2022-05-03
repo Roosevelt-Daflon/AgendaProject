@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "172674516518",
+    "project_id": "agenda-projeto-cb3f4",
+    "storage_bucket": "agenda-projeto-cb3f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172674516518:android:17d5b947be470ff0cac8e7",
+        "android_client_info": {
+          "package_name": "com.example.projeto_agenda_contatos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172674516518-jarettjamd5ndgmf6csi1m8o5k1rfhnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPm9l0KODInYwfrIyF4J-_G4WFlk3T7HM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172674516518-jarettjamd5ndgmf6csi1m8o5k1rfhnd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
